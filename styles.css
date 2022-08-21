@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  font-family: "Overpass";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: hsl(216, 12%, 8%);
+
+}
+
+
+.container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 15rem;
+}
+
+
+.card {
+  width: 350px;
+  height: 350px;
+  background: hsl(213, 19%, 18%);
+  border-radius: 30px;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+
+.card-image {
+  background:hsl(213, 19%, 24%);
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-top: 2rem;
+}
+
+
+.card-image svg {
+  margin: 11px;
+}
+
+
+.card-header h2 {
+  color: white;
+}
+
+.card-text p{
+  font-size: 13px;
+  font-weight: 700;
+  color: hsl(216, 12%, 54%);
+  line-height: 18px;
+}
+
+
+.card-rating input{
+  border-radius: 100%;
+  width: 2.75rem;
+  height: 2.75rem;
+  margin-right: 13px;
+  margin-top: 0.2rem;
+  background:hsl(213, 19%, 24%);
+  border: 1px solid hsl(213, 19%, 24%);
+  cursor: pointer;
+  color:hsl(216, 12%, 54%);
+  font-weight: bold;
+}
+
+.card-rating input:hover {
+    color: white;
+    background: hsl(25, 97%, 53%);
+}
+
+.card-rating input:focus {
+  color: white;
+  background: hsl(217, 12%, 63%);
+
+}
+
+.card-button button {
+  margin-top: 1.25rem;
+  width: 300px;
+  height: 45px;
+  border-radius: 50px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  cursor: pointer;
+  background: hsl(25, 97%, 53%);
+  color: white;
+  border: none;
+}
+
+.card-button button:hover {
+  background: white;
+  color: hsl(25, 97%, 53%);
+}
+
+
+
+/* thank.html */
+.thank-you {
+  display: none;
+
+}
+
+.center-items {
+  text-align: center;
+}
+
+.card-image-thank {
+  margin-top: 2.25rem;
+}
+
+.card-given-rating{
+  display: inline-block;
+
+}
+
+.card-given-rating p{
+  margin-top: 1rem;
+  color: hsl(30, 97%, 53%);
+  font-size: 13px;
+  background:hsl(213, 19%, 24%);
+  letter-spacing: 1px;
+  padding: 8px 16px;
+  border-radius: 25px;
+}
+.card-thank-header {
+    margin-top: -0.75rem;
+}
+.card-thank-text {
+  margin-top: -0.75rem;
+}
+
+.card-thank-text p{
+  font-size: 0.76rem;
+  letter-spacing: 0.1px;
+}
